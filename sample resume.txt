@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>HTML Form Demo</title>
+</head>
+<body>
+<h1>HTML FORM DEMO</h1>
+<form>
+<label for="university">UNIVERSITY:</label>
+<input type="text" university="UNIVERSITY" university="UNIVERSITY"><br>
+<br>
+<label for="institute">INSTITUTE:</label>
+<input type="text"institute="INSTITUTE" institute="INSTITUTE"><br>
+<br>
+<label for="Branch">BRANCH:</label>
+<select branch="branch" name="BRANCH"><br>
+<option value="ECS">ECS</option>
+<option value="ECE">ECE</option>
+<option value="CSE">CSE</option>
+<option value="CS&IT">CS&IT</option>
+<br>
+</select>
+<br>
+<label for="Degree">DEGREE:</label>
+<select degree="degree" name="Dergee">
+<ul type="square">
+<li>pursuing</LI>
+<li>completed</LI>
+<option value="UG">UG</option>
+<option value="PG">PG</option> 
+</select><br>
+CGPA:
+<input type="number" min=1 max=5>
+
+
+</form>
+</body>
+</html>
